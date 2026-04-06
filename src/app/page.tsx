@@ -7,7 +7,7 @@ import FaqBase from '@/components/sections/faq/FaqBase';
 import FeatureCardNine from '@/components/sections/feature/FeatureCardNine';
 import FooterBaseReveal from '@/components/sections/footer/FooterBaseReveal';
 import HeroSplitTestimonial from '@/components/sections/hero/HeroSplitTestimonial';
-import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
+import NavbarLayoutFloatingInline from '@/components/navbar/NavbarLayoutFloatingInline';
 import ProductCardFour from '@/components/sections/product/ProductCardFour';
 import TestimonialCardFifteen from '@/components/sections/testimonial/TestimonialCardFifteen';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -28,22 +28,18 @@ export default function LandingPage() {
     >
       <ReactLenis root>
   <div id="nav" data-section="nav">
-      <NavbarLayoutFloatingOverlay
+      <NavbarLayoutFloatingInline
       navItems={[
-        {
-          name: "Home",          id: "#hero"},
-        {
-          name: "Services",          id: "#services"},
-        {
-          name: "Why Us",          id: "#why-us"},
-        {
-          name: "Testimonials",          id: "#testimonials"},
-        {
-          name: "Contact",          id: "#contact"},
+        { name: "Home", id: "#hero" },
+        { name: "Services", id: "#services" },
+        { name: "Why Us", id: "#why-us" },
+        { name: "Testimonials", id: "#testimonials" },
+        { name: "Contact", id: "#contact" },
       ]}
       brandName="Super Boost Gym"
       button={{
-        text: "Free Trial",        href: "https://wa.me/971564379911"}}
+        text: "Free Trial",        href: "https://wa.me/971564379911"
+      }}
     />
   </div>
 
@@ -89,16 +85,11 @@ export default function LandingPage() {
           src: "http://img.b2bpic.net/free-photo/cheerful-boxer-looking-camera_171337-20044.jpg",          alt: "User 5"},
       ]}
       marqueeItems={[
-        {
-          type: "text",          text: "24/7 Support"},
-        {
-          type: "text",          text: "Expert Coaching"},
-        {
-          type: "text",          text: "Modern Equipment"},
-        {
-          type: "text",          text: "Al Barsha Location"},
-        {
-          type: "text",          text: "Results Guaranteed"},
+        { type: "text", text: "24/7 Support" },
+        { type: "text", text: "Expert Coaching" },
+        { type: "text", text: "Modern Equipment" },
+        { type: "text", text: "Al Barsha Location" },
+        { type: "text", text: "Results Guaranteed" },
       ]}
     />
   </div>

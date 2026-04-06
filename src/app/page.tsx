@@ -56,19 +56,19 @@ export default function LandingPage() {
       testimonials={[
         {
           name: "Elias Eid",          handle: "@elias",          testimonial: "Super Boost Gym is truly exceptional. The coaching is phenomenal.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-sporty-black-man-wearing-towel-around-neck_1262-16420.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-sporty-black-man-wearing-towel-around-neck_1262-16420.jpg?_wi=1"},
         {
           name: "Matthew",          handle: "@matthew",          testimonial: "Satisfying fitness experience and feels like a home.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-boxer-looking-camera_171337-20044.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-boxer-looking-camera_171337-20044.jpg?_wi=1"},
         {
           name: "Muhammad Ismail",          handle: "@muhammad",          testimonial: "One of the best gyms in Dubai with everything you need.",          rating: 5,
           imageSrc: "http://img.b2bpic.net/free-photo/side-view-woman-helping-man-gym_23-2149740152.jpg"},
         {
           name: "Sarah Ahmed",          handle: "@sarah",          testimonial: "Incredible facilities and very motivating instructors.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/smiling-sporty-black-man-wearing-towel-around-neck_1262-16420.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/smiling-sporty-black-man-wearing-towel-around-neck_1262-16420.jpg?_wi=2"},
         {
           name: "David K",          handle: "@davidk",          testimonial: "Best value for money in Al Barsha by far.",          rating: 5,
-          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-boxer-looking-camera_171337-20044.jpg"},
+          imageSrc: "http://img.b2bpic.net/free-photo/cheerful-boxer-looking-camera_171337-20044.jpg?_wi=2"},
       ]}
       buttons={[
         {
@@ -111,33 +111,33 @@ export default function LandingPage() {
       features={[
         {
           title: "Personal Training",          description: "1-on-1 coaching for specific goals.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/smiling-black-man-lifting-barbell-with-personal-trainer_1262-16411.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/smiling-black-man-lifting-barbell-with-personal-trainer_1262-16411.jpg?_wi=1"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/smiling-black-man-lifting-barbell-with-personal-trainer_1262-16411.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/smiling-black-man-lifting-barbell-with-personal-trainer_1262-16411.jpg?_wi=2"},
         },
         {
           title: "Strength & Conditioning",          description: "Build foundational power and speed.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/illustration-person-weight-lifting_23-2151850200.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/illustration-person-weight-lifting_23-2151850200.jpg?_wi=1"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/illustration-person-weight-lifting_23-2151850200.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/illustration-person-weight-lifting_23-2151850200.jpg?_wi=2"},
         },
         {
           title: "Boxing & Martial Arts",          description: "Intense combat sports training.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/fitness-girl-hitting-punching-bag_23-2148017340.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/fitness-girl-hitting-punching-bag_23-2148017340.jpg?_wi=1"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/fitness-girl-hitting-punching-bag_23-2148017340.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/fitness-girl-hitting-punching-bag_23-2148017340.jpg?_wi=2"},
         },
         {
           title: "Group Classes",          description: "High-energy group workouts.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-training-together-gym_23-2150289996.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-training-together-gym_23-2150289996.jpg?_wi=1"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-training-together-gym_23-2150289996.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/full-shot-people-training-together-gym_23-2150289996.jpg?_wi=2"},
         },
         {
           title: "Sauna & Recovery",          description: "Optimize post-workout recovery.",          phoneOne: {
-            imageSrc: "http://img.b2bpic.net/free-photo/young-woman-having-rest-sauna-alone_1303-26472.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/young-woman-having-rest-sauna-alone_1303-26472.jpg?_wi=1"},
           phoneTwo: {
-            imageSrc: "http://img.b2bpic.net/free-photo/young-woman-having-rest-sauna-alone_1303-26472.jpg"},
+            imageSrc: "http://img.b2bpic.net/free-photo/young-woman-having-rest-sauna-alone_1303-26472.jpg?_wi=2"},
         },
       ]}
       showStepNumbers={false}
